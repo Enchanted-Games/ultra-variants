@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[41,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "ultravariations"
+version = "1.0.0"
+displayName = "Ultra Variations"
+authors = "Enchanted_Games"
+description = '''
+A simple mod that adds many new variations of already existing vanilla blocks!
+'''
+#logoFile = ""
+
+[[dependencies.ultravariations]]
+modId = "forge"
+mandatory = true
+versionRange = "[41,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ultravariations]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ultravariations]]
+modId = "architectury"
+mandatory = true
+versionRange = "[5.6.22,)"
+ordering = "AFTER"
+side = "BOTH"

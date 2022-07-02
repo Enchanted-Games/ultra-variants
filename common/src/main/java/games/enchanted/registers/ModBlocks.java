@@ -4,11 +4,12 @@ import java.util.function.Supplier;
 
 import dev.architectury.registry.registries.RegistrySupplier;
 import games.enchanted.UltraVariants;
+import games.enchanted.properties.BlockProperties;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import net.minecraft.block.LadderBlock;
+import net.minecraft.block.LeverBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.Item.Settings;
 
 public class ModBlocks{
     private static RegistrySupplier<Block> register(String name, Supplier<Block> block, Item.Settings itemSettings) {
@@ -25,9 +26,14 @@ public class ModBlocks{
     // register block
 	public static final RegistrySupplier<Block> TEST_BLOCK = register(
 		"test_block",
-		() -> new Block(Block.Settings.copy(Blocks.STONE_BRICKS)),
-		new Settings().maxCount(4)
+		() -> new Block(BlockProperties.EXAMPLE_METAL),
+		BlockProperties.GENERIC_BLOCK_ITEM
 	);
+
+    public static final RegistrySupplier<Block> SPRUCE_LADDER = register("spruce_ladder", () -> new LadderBlock(BlockProperties.LADDER_BLOCK), BlockProperties.GENERIC_BLOCK_ITEM);
+    public static final RegistrySupplier<Block> STONE_CLIMBING_PEBBLES = register("stone_climbing_pebbles", () -> new LadderBlock(BlockProperties.STONE_LADDER_BLOCK), BlockProperties.GENERIC_BLOCK_ITEM);
+	
+    public static final RegistrySupplier<Block> SPRUCE_LEVER = register("spruce_lever", () -> new LeverBlock(BlockProperties.STONE_LEVER_BLOCK), BlockProperties.GENERIC_BLOCK_ITEM);
 
 
     public static void init(){}

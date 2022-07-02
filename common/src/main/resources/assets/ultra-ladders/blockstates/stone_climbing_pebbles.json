@@ -1,0 +1,60 @@
+{
+    "variants": {
+        "facing=east": [
+            {
+                "model": "ultra-ladders:block/stone_climbing_pebbles/1",
+                "y": 90
+            },
+            {
+                "model": "ultra-ladders:block/stone_climbing_pebbles/2",
+                "y": 90
+            },
+            {
+                "model": "ultra-ladders:block/stone_climbing_pebbles/3",
+                "y": 90
+            }
+        ],
+
+        "facing=north": [
+            {
+                "model": "ultra-ladders:block/stone_climbing_pebbles/1"
+            },
+            {
+                "model": "ultra-ladders:block/stone_climbing_pebbles/2"
+            },
+            {
+                "model": "ultra-ladders:block/stone_climbing_pebbles/3"
+            }
+        ],
+
+        "facing=south": [
+            {
+                "model": "ultra-ladders:block/stone_climbing_pebbles/1",
+                "y": 180
+            },
+            {
+                "model": "ultra-ladders:block/stone_climbing_pebbles/2",
+                "y": 180
+            },
+            {
+                "model": "ultra-ladders:block/stone_climbing_pebbles/3",
+                "y": 180
+            }
+        ],
+
+        "facing=west": [
+            {
+                "model": "ultra-ladders:block/stone_climbing_pebbles/1",
+                "y": 270
+            },
+            {
+                "model": "ultra-ladders:block/stone_climbing_pebbles/2",
+                "y": 270
+            },
+            {
+                "model": "ultra-ladders:block/stone_climbing_pebbles/3",
+                "y": 270
+            }
+        ]
+    }
+}

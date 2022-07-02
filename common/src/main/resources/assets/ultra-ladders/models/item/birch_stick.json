@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "ultra-ladders:item/sticks/birch_stick"
+    }
+}

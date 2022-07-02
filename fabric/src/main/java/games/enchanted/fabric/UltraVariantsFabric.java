@@ -1,11 +1,11 @@
 package games.enchanted.fabric;
 
-import games.enchanted.ExampleMod;
+import games.enchanted.UltraVariants;
 import net.fabricmc.api.ModInitializer;
 
-public class UltraVariationsFabric implements ModInitializer {
+public class UltraVariantsFabric implements ModInitializer {
     @Override
     public void onInitialize() {
-        ExampleMod.init();
+        UltraVariants.init();
     }
 }

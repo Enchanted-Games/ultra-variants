@@ -1,19 +1,19 @@
 {
     "schemaVersion": 1,
-    "id": "ultravariations",
+    "id": "ultravariants",
     "version": "1.0.0",
     "name": "Ultra Variations",
     "description": "A simple mod that adds many new variations of already existing vanilla blocks!",
     "authors": ["[programming] Enchanted_Games"],
     "contact": {
-        "homepage": "https://ultravariations.enchanted.games",
-        "sources": "https://ultravariations.enchanted.games/issues"
+        "homepage": "https://ultravariants.enchanted.games",
+        "sources": "https://ultravariants.enchanted.games/issues"
     },
     "license": "Insert License Here",
-    "icon": "assets/ultravariations/icon.png",
+    "icon": "assets/ultravariants/icon.png",
     "environment": "*",
     "entrypoints": {
-        "main": ["games.enchanted.fabric.UltraVariationsFabric"]
+        "main": ["games.enchanted.fabric.UltraVariantsFabric"]
     },
     "depends": {
         "fabric": "*",

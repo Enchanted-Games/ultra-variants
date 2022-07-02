@@ -4,7 +4,7 @@ loaderVersion = "[41,)"
 license = "Insert License Here"
 
 [[mods]]
-modId = "ultravariations"
+modId = "ultravariants"
 version = "1.0.0"
 displayName = "Ultra Variations"
 authors = "Enchanted_Games"
@@ -13,21 +13,21 @@ A simple mod that adds many new variations of already existing vanilla blocks!
 '''
 #logoFile = ""
 
-[[dependencies.ultravariations]]
+[[dependencies.ultravariants]]
 modId = "forge"
 mandatory = true
 versionRange = "[41,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.ultravariations]]
+[[dependencies.ultravariants]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.ultravariations]]
+[[dependencies.ultravariants]]
 modId = "architectury"
 mandatory = true
 versionRange = "[5.6.22,)"

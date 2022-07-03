@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "sticks",
+    "key": {
+        "#": {
+            "item": "minecraft:dark_oak_planks"
+        }
+    },
+    "pattern": ["#", "#"],
+    "result": {
+        "count": 4,
+        "item": "ultravariants:dark_oak_stick"
+    }
+}

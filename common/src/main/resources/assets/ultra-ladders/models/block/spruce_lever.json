@@ -1,7 +1,0 @@
-{
-    "parent": "ultra-ladders:block/template_lever",
-    "textures": {
-        "base": "minecraft:block/cobblestone",
-        "lever": "ultra-ladders:block/spruce_lever"
-    }
-}

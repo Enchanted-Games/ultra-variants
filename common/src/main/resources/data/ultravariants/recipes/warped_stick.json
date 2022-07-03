@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "sticks",
+    "key": {
+        "#": {
+            "item": "minecraft:warped_planks"
+        }
+    },
+    "pattern": ["#", "#"],
+    "result": {
+        "count": 4,
+        "item": "ultravariants:warped_stick"
+    }
+}

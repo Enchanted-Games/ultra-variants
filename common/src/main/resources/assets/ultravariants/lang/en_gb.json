@@ -1,0 +1,26 @@
+{
+    "itemGroup.ultravariants.items": "Ultra Ladders - Items",
+    "itemGroup.ultravariants.blocks": "Ultra Ladders - Blocks",
+
+    "block.minecraft.ladder": "Oak Ladder",
+    "block.minecraft.lever": "Oak Lever",
+    "item.minecraft.stick": "Oak Stick",
+
+    "item.ultravariants.spruce_stick": "Spruce Stick",
+    "item.ultravariants.birch_stick": "Birch Stick",
+    "item.ultravariants.jungle_stick": "Jungle Stick",
+    "item.ultravariants.acacia_stick": "Acacia Stick",
+    "item.ultravariants.dark_oak_stick": "Dark Oak Stick",
+    "item.ultravariants.mangrove_stick": "Mangrove Stick",
+    "item.ultravariants.crimson_stick": "Crimson Stick",
+    "item.ultravariants.warped_stick": "Warped Stick",
+    "item.ultravariants.stone_rod": "Stone Rod",
+    "item.ultravariants.blackstone_rod": "Blackstone Rod",
+    "item.ultravariants.deepslate_rod": "Deepslate Rod",
+
+    "block.ultravariants.stone_climbing_pebbles": "Stone Climbing Pebbles",
+
+    "block.ultravariants.spruce_ladder": "Spruce Ladder",
+
+    "block.ultravariants.spruce_lever": "Spruce Lever"
+}

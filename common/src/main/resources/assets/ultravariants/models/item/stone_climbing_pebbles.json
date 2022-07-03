@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "ultravariants:item/stone_climbing_pebbles"
+    }
+}

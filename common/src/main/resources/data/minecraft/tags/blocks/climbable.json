@@ -1,3 +1,6 @@
 {
-    "values": ["ultra-ladders:spruce_ladder", "ultra-ladders:stone_climbing_pebbles"]
+    "values": [
+        "ultravariants:spruce_ladder", //
+        "ultravariants:stone_climbing_pebbles"
+    ]
 }

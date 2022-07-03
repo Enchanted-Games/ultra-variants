@@ -7,7 +7,6 @@ import dev.architectury.registry.registries.RegistrySupplier;
 import games.enchanted.UltraVariants;
 import games.enchanted.properties.ItemProperties;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemConvertible;
 
 public class ModItems {
 		// register item
@@ -21,7 +20,11 @@ public class ModItems {
         // FuelRegistry.register(fuelValue, fuelItems);
 
 		// register item
-		return UltraVariants.ITEMS.register(name, item);
+		return UltraVariants.ITEMS.register(name, () -> {
+			Item itemRegistered = item.get();
+			FuelRegistry.register(fuelValue, itemRegistered);
+			return itemRegistered;
+		  });
 	}
 
     // test item

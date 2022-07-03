@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "sticks",
+    "key": {
+        "#": {
+            "tag": "ultravariants:deepslate_rod_craftables"
+        }
+    },
+    "pattern": ["#", "#"],
+    "result": {
+        "count": 4,
+        "item": "ultravariants:deepslate_rod"
+    }
+}

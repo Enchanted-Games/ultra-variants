@@ -1,0 +1,12 @@
+{
+    "values": [
+        "ultravariants:spruce_stick", //
+        "ultravariants:birch_stick",
+        "ultravariants:jungle_stick",
+        "ultravariants:acacia_stick",
+        "ultravariants:dark_oak_stick",
+        "ultravariants:mangrove_stick",
+        "ultravariants:crimson_stick",
+        "ultravariants:warped_stick"
+    ]
+}

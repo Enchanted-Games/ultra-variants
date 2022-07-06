@@ -1,0 +1,7 @@
+{
+    "parent": "ultravariants:block/template_lever",
+    "textures": {
+        "base": "minecraft:block/cobblestone",
+        "lever": "ultravariants:block/birch_lever"
+    }
+}

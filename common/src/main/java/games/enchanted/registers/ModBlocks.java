@@ -34,6 +34,7 @@ public class ModBlocks{
     public static final RegistrySupplier<Block> STONE_CLIMBING_PEBBLES = register("stone_climbing_pebbles", () -> new LadderBlock(BlockProperties.STONE_LADDER_BLOCK), BlockProperties.GENERIC_BLOCK_ITEM);
 	
     public static final RegistrySupplier<Block> SPRUCE_LEVER = register("spruce_lever", () -> new LeverBlock(BlockProperties.STONE_LEVER_BLOCK), BlockProperties.GENERIC_BLOCK_ITEM);
+    public static final RegistrySupplier<Block> BIRCH_LEVER = register("birch_lever", () -> new LeverBlock(BlockProperties.STONE_LEVER_BLOCK), BlockProperties.GENERIC_BLOCK_ITEM);
 
 
     public static void init(){}

@@ -9,17 +9,13 @@ import games.enchanted.properties.ItemProperties;
 import net.minecraft.item.Item;
 
 public class ModItems {
-		// register item
+	// register item
     private static RegistrySupplier<Item> register(String name, Supplier<Item> item) {
 		return UltraVariants.ITEMS.register(name, item);
 	}
-		// register fuel
-		
+	
+	// register fuel item
     private static RegistrySupplier<Item> registerFuel(String name, Supplier<Item> item, Integer fuelValue) {
-		// final ItemConvertible[] fuelItems = {item.get()};
-        // FuelRegistry.register(fuelValue, fuelItems);
-
-		// register item
 		return UltraVariants.ITEMS.register(name, () -> {
 			Item itemRegistered = item.get();
 			FuelRegistry.register(fuelValue, itemRegistered);

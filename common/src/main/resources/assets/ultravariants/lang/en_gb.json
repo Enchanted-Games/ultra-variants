@@ -2,8 +2,8 @@
     "itemGroup.ultravariants.items": "Ultra Ladders - Items",
     "itemGroup.ultravariants.blocks": "Ultra Ladders - Blocks",
 
-    "block.minecraft.ladder": "Oak Ladder",
-    "block.minecraft.lever": "Oak Lever",
+    "item.minecraft.ladder": "Oak Ladder",
+    "item.minecraft.lever": "Oak Lever",
     "item.minecraft.stick": "Oak Stick",
 
     "item.ultravariants.spruce_stick": "Spruce Stick",
@@ -22,5 +22,6 @@
 
     "block.ultravariants.spruce_ladder": "Spruce Ladder",
 
-    "block.ultravariants.spruce_lever": "Spruce Lever"
+    "block.ultravariants.spruce_lever": "Spruce Lever",
+    "block.ultravariants.birch_lever": "Birch Lever"
 }
